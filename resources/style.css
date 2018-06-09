@@ -1,0 +1,42 @@
+html {
+  font-size: 16px;
+}
+
+
+
+/* Navigation */
+
+nav{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  padding: 0 2rem;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+
+/* Mobile media queries */
+
+@media only screen and (max-width: 800px) {
+  nav a {
+    padding: 0 0.5rem;
+  }
+}

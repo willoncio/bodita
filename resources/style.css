@@ -119,6 +119,11 @@ div.date {
   }
 
   .rotate-2 {
+    transform: rotate(-18deg);
     left: -10px;
+  }
+
+  .rotate-1 {
+    transform: rotate(-9deg);
   }
 }

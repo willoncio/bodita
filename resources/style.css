@@ -84,7 +84,6 @@ nav a:hover {
 
 .bottom-container {
   height: 50%;
-  justify-content: center;
 
 }
 
@@ -96,6 +95,19 @@ nav a:hover {
   transform: rotate(25deg);
   position: relative;
   left: -90px;
+}
+
+.single-image {
+  height: 50%;
+  position: relative;
+  left: 40px;
+}
+
+div.date {
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 

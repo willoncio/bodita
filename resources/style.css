@@ -117,4 +117,8 @@ div.date {
   nav a {
     padding: 0 0.5rem;
   }
+
+  .rotate-2 {
+    left: -10px;
+  }
 }

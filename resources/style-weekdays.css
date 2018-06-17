@@ -2,7 +2,6 @@ html {
   font-size: 16px;
   width: 100%;
   height: 100%;
-  color: white;
 }
 
 body {
@@ -27,21 +26,6 @@ img {
     max-height: 100%;
 }
 
-.justify-content-center {
-  justify-content: center;
-}
-
-
-/*
-div {
-  border: 1px solid pink;
-}
-*/
-
-
-a {
-  color: yellow;
-}
 
 
 /* Navigation */
@@ -76,7 +60,7 @@ nav a:hover {
 /* Homepage images */
 
 .main-container {
-  padding: 4rem 0;
+  padding: 2rem 0;
   width: 60%;
   height: auto;
   margin: 0 auto;
@@ -85,6 +69,7 @@ nav a:hover {
 .left-column {
   width: 50%;
   height: 600px;
+  justify-content: center;
 }
 
 .right-column {
@@ -92,24 +77,9 @@ nav a:hover {
   height: 600px;
 }
 
-.left-appointment {
-  width: 50%;
-}
-
-.right-appointment {
-  width: 50%;
-}
-
-.right-appointment-text {
-  width: 60%;
-}
-
-.right-appointment-map {
-  width: 40%;
-}
-
 .top-container {
   height: 50%;
+    justify-content: center;
 }
 
 .bottom-container {
@@ -143,39 +113,8 @@ div.date {
 /* Maps and days */
 
 iframe {
-  height: 100%;
   width: auto;
-  display: block;
 }
-
-.hour {
-  height: 50px;
-  width: auto;
-  border-bottom: 2px solid gray;
-  border-top: 2px solid gray;
-  margin-bottom: 0.25rem;
-
-}
-
-.left-appointment, .right-appointment {
-  display: flex;
-  align-items: center;
-
-}
-
-.left-appointment {
-  padding-left: 1rem;
-}
-
-.hour-title {
-  text-align: center;
-  font-size: 24px;
-  padding: 0.5rem 0;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-
 
 
 /* Mobile media queries */

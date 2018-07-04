@@ -105,11 +105,11 @@ nav a {
 }
 
 .left-appointment {
-  width: 50%;
+  width: 75%;
 }
 
 .right-appointment {
-  width: 50%;
+  width: 25%;
 }
 
 .right-appointment-text {
@@ -432,8 +432,8 @@ iframe {
 .hour {
     height: 60px;
     width: auto;
-    border-bottom: 2px dashed #404040;
-    border-top: 2px dotted #303030;
+    border-bottom: 2px dotted #404040;
+    border-top: 2px dotted #404040;
     margin-bottom: 0.25rem;
 }
 

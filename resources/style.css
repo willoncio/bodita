@@ -192,6 +192,7 @@ iframe {
 .photos-row {
   height: 12rem;
   text-align: center;
+  justify-content: space-around;
   margin-bottom: 3rem;
 }
 
@@ -200,9 +201,7 @@ iframe {
   width: auto;
 }
 
-.photos-row img {
-  transform: rotate(7deg);
-}
+
 
 
 /* Effects testing */
@@ -435,6 +434,16 @@ iframe {
     border-bottom: 2px dotted #404040;
     border-top: 2px dotted #404040;
     margin-bottom: 0.25rem;
+}
+
+.photos-row {
+  flex-direction: column;
+  height: auto;
+}
+
+.photos-row img {
+  height: auto;
+  width: 60%;
 }
 
 }
